@@ -63,7 +63,7 @@ The method relies on an auxiliary repo created for light field patch matching. I
 repository. To set up the submodule, run the following commands:
 
 1. `cd denoising_methods/LFDnPatch`
-2. `git clone https://github.com/tsfeith-epfl/LF-PatchMatch.git`
+2. `git clone https://github.com/mmspg/light-field-patch-match.git LF-PatchMatch
 3. `cd LF-PatchMatch`
 4. `git submodule init`
 5. `git submodule update`
@@ -94,3 +94,13 @@ However, they are not ready to be run as-is, as the scenes called in the scripts
 scenes in the `./data/clean` folder, and adjust the scripts accordingly. Use the `./data/noise_generator.py` file to
 generate the noisy images with different noise strengths and types, and the `./data/multi_scale_generator.py` to create
 the downscaled versions of each scene.
+
+## Conditions of Use
+
+Permission is hereby granted, without written agreement and without license or royalty fees, to use, copy, modify, and distribute the data provided and its documentation for research purpose only. The data provided may not be commercially distributed. In no event shall the Ecole Polytechnique Fédérale de Lausanne (EPFL) be liable to any party for direct, indirect, special, incidental, or consequential damages arising out of the use of the data and its documentation. The Ecole Polytechnique Fédérale de Lausanne (EPFL) specifically disclaims any warranties. The data provided hereunder is on an “as is” basis and the Ecole Polytechnique Fédérale de Lausanne (EPFL) has no obligation to provide maintenance, support, updates, enhancements, or modifications.
+
+If you wish to use the provided script in your research, we kindly ask you to cite [1].
+
+## References
+
+[1] TODO
