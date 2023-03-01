@@ -51,13 +51,12 @@ Go to the method folder via `cd ./denoising_methods/classical/LFBM5D`. Once in t
 
 ### DnCNN
 
-No set-up is required for this method. The implemented method was taken from the [original DnCNN implementation]
-(https://github.com/cszn/KAIR/).
+No set-up is required for this method. The implemented method was taken from the [original DnCNN implementation](https://github.com/cszn/KAIR/).
 
 ### LFDnPatch
 
-The folder structure and the training routines are very strongly based on the original [original DnCNN implementation]
-(https://github.com/cszn/KAIR/), with some modifications to adapt it to the light field domain.
+The folder structure and the training routines are very strongly based on the original [original DnCNN implementation](https://github.com/cszn/KAIR/),
+with some modifications to adapt it to the light field domain.
 
 The method relies on an auxiliary repo created for light field patch matching. It is set-up as a submodule in this
 repository. To set up the submodule, run the following commands:
